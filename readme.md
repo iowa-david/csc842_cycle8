@@ -14,7 +14,7 @@ The script starts with empty lists of files and then recursively goes through th
 ## Three main points:
 - Python allows for relatively easy processing across a folder structure to view and check through files.
 - Setting up specific regular expressions and combining with the above lets one go across a large array of files to see what is available.
-- Python's print formatting syntax helps streamline the combination of complex objects in a friendly, easy-to-read output without string concatenation or other string manipulation processes.
+- The default file reader does not allow for processing through files such as doc and docx. They will read but are not able to be searched through.
 ## Room for improvement:
 I am focusing on files that are located on the machine where the application is hosted, going across and seeing what is available on common network shares would be my next step. 
 Additionally, I have found a new library to levrage to read in more types of files besides standard file types that are handled automatically by python.
